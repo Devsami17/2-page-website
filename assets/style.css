@@ -1,0 +1,106 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    font-family: "Poppins";
+}
+.navbar-collapse{
+    justify-content: end !important;
+}
+.navbar-brand{
+    font-weight: 600;
+}
+.main_box{
+    background-color: #323788;
+    padding: 40px 40px;
+    /* width: 60%; */
+    border-radius: 8px;
+}
+label{
+    color: #fff;
+    font-weight: 400;
+}
+input[type="text"]{
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    margin-top: 8px;
+
+}
+.main_box p {
+    color: #fff;
+    font-size: 14px;
+    margin-left: 10px;
+    position: relative;
+    top: 20px;
+}
+.butnn{
+    font-weight: 500;
+    height: 45px;
+    width: 150px;
+    background: #ff3131;
+    border: 1px solid #ff3131;
+    margin: auto;
+    color: white;
+}
+.message{
+    height: 150px !important;
+}
+h3{
+    font-weight: 500;
+    font-size: 35px;
+}
+.box_1{
+    height: 300px;
+    background-image: url('./Apply-For.png');
+    background-position: center;
+    background-size: cover;
+}
+.box_2{
+    height: 300px;
+    background-image: url('./Provide.png');
+    background-position: center;
+    background-size: cover;
+}
+.box_3{
+    height: 300px;
+    background-image: url('./Receive-Funding.png');
+    background-position: center;
+    background-size: cover;
+}
+.box_1 h3 , .box_2 h3 , .box_3 h3{
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    margin-top: 50px;
+    font-weight: 700;
+    font-family: system-ui;
+}
+.story_box{
+    background-image: url("./download-54.png");
+    height: fit-content;
+    padding:20px 5px 100px 5px ;
+
+}
+.banner{
+    background-image: url("./steady-bg.png");
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.service{
+    padding: 50px 0px;
+}
+.service h1{
+    font-weight: 600;
+    font-size: 50px;
+}
+.card p {
+    font-size: 14px;
+    color: grey;
+}
+.card  h5 {
+font-weight: 600;
+}
